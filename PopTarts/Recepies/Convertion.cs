@@ -9,6 +9,11 @@ namespace PopTarts.Recepies
         public static void ConvertToDL() // Najs!
         {
             
+        } 
+
+        public static void RoundToOneDecimal()
+        {
+            
         }
 
        
