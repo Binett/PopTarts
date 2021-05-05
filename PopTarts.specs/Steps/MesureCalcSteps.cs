@@ -14,9 +14,9 @@ namespace PopTarts.specs.Steps
         }
         
         [Given(@"the decimals are rounded to (.*)")]
-        public void GivenTheDecimalsAreRoundedTo(int p0)
+        public void GivenTheDecimalsAreRoundedTo(decimal p0)
         {
-           
+             Check.IsDecimal(p0);
         }
         
         [When(@"the amount of cups is (.*)")]
