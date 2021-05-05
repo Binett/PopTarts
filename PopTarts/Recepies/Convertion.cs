@@ -11,11 +11,6 @@ namespace PopTarts.Recepies
             
         }
 
-        public static void Test()
-        {
-            Console.WriteLine("Hej");
-        }
-
-        public static void Test() { Console.WriteLine(":<"); }
+       
     }
 }
