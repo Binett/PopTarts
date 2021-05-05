@@ -6,7 +6,7 @@ namespace PopTarts.Recepies
 {
     public static class Convertion
     {
-        public static void ConvertToDL(float cups) //Nicklas + Tobias
+        public static void ConvertToDL(Decimal cups) //Nicklas + Tobias
         {
             
         } 

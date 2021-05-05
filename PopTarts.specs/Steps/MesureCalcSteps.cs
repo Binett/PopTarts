@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PopTarts.Recepies;
+using System;
 using TechTalk.SpecFlow;
 
 namespace PopTarts.specs.Steps
@@ -25,9 +26,9 @@ namespace PopTarts.specs.Steps
         }
         
         [Then(@"the Swedish amount is (.*) dl")]
-        public void ThenTheSwedishAmountIsDl(Decimal p0)
+        public void ThenTheSwedishAmountIsDl(Decimal cup)
         {
-            ScenarioContext.Current.Pending();
+            Convertion.ConvertToDL(cup);
         }
     }
 }
