@@ -26,7 +26,7 @@ namespace PopTarts.specs.Steps
         }
         
         [Then(@"the Swedish amount is (.*) dl")]
-        public void ThenTheSwedishAmountIsDl(Decimal cup)
+        public void ThenTheSwedishAmountIsDl(float cup)
         {
             Convertion.ConvertToDL(cup);
         }
