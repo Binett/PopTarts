@@ -6,16 +6,15 @@ namespace PopTarts.Recepies
 {
     public static class Convertion
     {
-        public static void ConvertToDL() // Najs!
+        public static void ConvertToDL() //Nicklas + 
         {
             
         } 
 
-        public static void RoundToOneDecimal()
+        public static void RoundToOneDecimal()//
         {
             
         }
-
-       
+               
     }
 }
