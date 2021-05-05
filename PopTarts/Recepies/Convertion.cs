@@ -11,9 +11,9 @@ namespace PopTarts.Recepies
             
         } 
 
-        public static void RoundToOneDecimal()//
+        public static decimal RoundToOneDecimal(decimal p0)//hoffmann
         {
-            
+            return decimal.Round(p0, 1);
         }
                
     }
