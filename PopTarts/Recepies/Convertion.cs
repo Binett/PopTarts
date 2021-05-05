@@ -10,5 +10,7 @@ namespace PopTarts.Recepies
         {
 
         }
+
+        public static void Test() { Console.WriteLine(":<"); }
     }
 }
