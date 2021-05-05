@@ -8,9 +8,14 @@ namespace PopTarts.Recepies
     {
         public static void ConvertToDL() // Najs!
         {
-
+            
         }
 
-        public static void Test() { Console.WriteLine(":)"); }
+        public static void Test()
+        {
+            Console.WriteLine("Hej");
+        }
+
+        public static void Test() { Console.WriteLine(":<"); }
     }
 }
