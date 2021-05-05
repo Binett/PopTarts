@@ -6,9 +6,9 @@ namespace PopTarts.Recepies
 {
     public static class Convertion
     {
-        public static float ConvertToDL(float cups) //Nicklas + Tobias
+        public static decimal ConvertToDL(decimal cups) //Nicklas + Tobias
         {
-           return MathF.Round(cups * 2.36588237F, 1);
+           return RoundToOneDecimal(cups * (decimal)2.36588237);
         } 
 
         public static decimal RoundToOneDecimal(decimal p0)//hoffmann
